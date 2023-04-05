@@ -499,7 +499,7 @@ nav a {
 ul.rb li .timestamp {
   color: var(--main-color);
   position: relative;
-  width: 100px;
+  width: 250px;
   font-size: 12px;
 }
 
