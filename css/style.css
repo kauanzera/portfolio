@@ -507,6 +507,10 @@ ul.rb li .timestamp {
   color: #fff;
 }
 
+.timestamp {
+  width: 250px;
+}
+
 .container-3 {
   width: 5em;
   vertical-align: right;
