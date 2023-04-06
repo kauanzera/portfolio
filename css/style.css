@@ -499,17 +499,13 @@ nav a {
 ul.rb li .timestamp {
   color: var(--main-color);
   position: relative;
-  width: 250px;
-  font-size: 15px;
+  width: 480px;
+  font-size: 14px;
 }
 
 .item-title {
   color: #fff;
-  font-size: 15px;
-}
-
-.timestamp {
-  width: 300px;
+  font-size: 14px;
 }
 
 .container-3 {
