@@ -500,15 +500,16 @@ ul.rb li .timestamp {
   color: var(--main-color);
   position: relative;
   width: 250px;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .item-title {
   color: #fff;
+  font-size: 15px;
 }
 
 .timestamp {
-  width: 250px;
+  width: 300px;
 }
 
 .container-3 {
