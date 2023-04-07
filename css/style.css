@@ -432,13 +432,8 @@ container {
   box-shadow: 3px 3px 15px rgba(119, 119, 119, 0.5);
 }
 
-nav {
-  margin: 2.6em auto;
-}
-
 nav a {
   list-style: none;
-  padding: 35px;
   color: #232931;
   font-size: 1.1em;
   display: block;
