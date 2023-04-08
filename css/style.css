@@ -258,6 +258,34 @@ span {
   margin: 1rem 0 3rem;
 }
 
+.bxl-html5:before {
+  color: rgb(220, 88, 36);
+}
+
+.bxl-css3:before {
+  color: rgb(13, 98, 234);
+}
+
+.bxl-javascript:before {
+  color: rgb(238, 193, 11);
+}
+
+.bxl-java:before {
+  color: rgb(202, 50, 50);
+}
+
+.bxl-c-plus-plus:before {
+  color: rgb(43, 81, 195);
+}
+
+.bxl-nodejs:before {
+  color: rgb(118, 230, 14);
+}
+
+.bxs-data:before {
+  color: #dee3f2;
+}
+
 .portfolio {
   background: var(--second-bg-color)
 }
