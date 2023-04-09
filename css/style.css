@@ -40,11 +40,20 @@ section {
   left: 0;
   width: 100%;
   padding: 2rem 9%;
-  background: var(--bg-color);
+  background: rgba(31, 36, 45, 0.146);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+}
+
+.logo {
+  font-size: 2.5rem;
+  color: var(--text-color);
+  font-weight: 600;
+  cursor: default;
 }
 
 .logo:hover {
@@ -55,13 +64,6 @@ section {
 
 .header.sticky {
   border-bottom: .1rem solid rgba(0, 0, 0, .2);
-}
-
-.logo {
-  font-size: 2.5rem;
-  color: var(--text-color);
-  font-weight: 600;
-  cursor: default;
 }
 
 .navbar a {
@@ -587,20 +589,6 @@ input::placeholder {
 
   section {
     padding: 10rem 3% 2rem;
-  }
-
-  .teste {
-    position: absolute;
-    z-index: 5;
-    width: 250px;
-    height: 250px;
-    background: rgba(255, 255, 255, 0.146);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(7px);
-    -webkit-backdrop-filter: blur(7px);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-
   }
 
   .services {
